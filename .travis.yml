@@ -13,7 +13,7 @@ script:
   # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
   - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar
 mvn sonar:sonar \
-  -Dsonar.projectKey=fishheads \
+  -Dsonar.projectKey=fishheadsproject \
   -Dsonar.organization=jeevan1133-github \
   -Dsonar.host.url=https://sonarcloud.io \
-  -Dsonar.login=51ac53b75c711b05920f3f7f06af9c901a4054ce
+  -Dsonar.login=31cd198ce31f24b591e5bd753d5cc6b5f34725f5
